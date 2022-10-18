@@ -1,0 +1,19 @@
+/* male health pack component */
+
+.male_health_package_wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .green_text_heading{
+    color:var(--primary-green);
+    font-size: 1.7rem;
+    margin:30px 0 3rem;
+  }
+
+  .grid_column_2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  

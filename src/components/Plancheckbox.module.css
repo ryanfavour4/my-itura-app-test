@@ -1,0 +1,41 @@
+.packages_price_border{
+    border: 3px solid var(--grey);
+    width: 17em;
+    padding: 12px 8px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+    margin:1em 0;
+  }
+
+  
+  
+input[type='radio'].plans_radio{
+    accent-color: var(--primary-green);
+  }
+  
+  .packages_price_border:has(input[type='radio'].plans_radio:checked){
+    border: 3px solid var(--primary-green);
+  }
+  
+  input[type='radio'].plans_radio:checked~h3{
+    color: var(--primary-green);
+  }
+
+  input[type='radio'].plans_radio:checked~p{
+    color: var(--primary-green);
+  }
+  
+  .test_plan{
+    margin-bottom: 0;
+    flex: 0.6;
+  }
+  
+  .test_plan_Price{
+    font-size:1.1rem;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+  
